@@ -1,7 +1,7 @@
 <p>Images</p>
 
 <% @images.each do |image| %>
-  <div class="container">
+  <div class="container" data-controller="images">
     <img src="<%= image.url %>" class="img-fluid" alt="<%= image.title %>">
     <div class="card-body">
       <h5 class="card-title"><%= image.title %></h5>
