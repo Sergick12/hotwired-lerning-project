@@ -103,6 +103,7 @@ GEM
       reline (>= 0.3.8)
     drb (2.2.1)
     erubi (1.12.0)
+    ffaker (2.23.0)
     globalid (1.2.1)
       activesupport (>= 6.1)
     i18n (1.14.5)
@@ -245,6 +246,7 @@ DEPENDENCIES
   capybara
   cssbundling-rails
   debug
+  ffaker
   importmap-rails
   jbuilder
   pg (~> 1.1)

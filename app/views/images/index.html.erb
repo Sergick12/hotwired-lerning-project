@@ -1,0 +1,10 @@
+<p>Images</p>
+
+<% @images.each do |image| %>
+  <div class="container">
+    <img src="<%= image.url %>" class="img-fluid" alt="<%= image.title %>">
+    <div class="card-body">
+      <h5 class="card-title"><%= image.title %></h5>
+    </div>
+  </div>
+<% end %>
